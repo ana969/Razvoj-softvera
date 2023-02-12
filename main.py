@@ -22,7 +22,7 @@ def main():
             total_turtles = 0
             for i in range(months):
                 paper = int(input(f"Unesite broj kilograma recikliranog papira u mjesecu: {i+1}: "))
-                bottles = int(input(f"Unesite broj kilograma recikliranih plastičnih boca u mjesecu: {i+1}: "))
+                bottles = int(input(f"Unesite broj  recikliranih plastičnih boca u mjesecu: {i+1}: "))
                 trees = paper / 21
                 turtles = bottles / 88
                 total_trees += trees
@@ -36,7 +36,7 @@ def main():
             total_turtles = 0
             for i in range(years):
                 paper = int(input(f"Unesite broj kilograma recikliranog papira u godini: {i+1}: "))
-                bottles = int(input(f"Unesite broj kilograma recikliranih plastičnih boca u godini: {i+1}: "))
+                bottles = int(input(f"Unesite broj  recikliranih plastičnih boca u godini: {i+1}: "))
                 trees = paper / 21
                 turtles = bottles / 88
                 total_trees += trees
